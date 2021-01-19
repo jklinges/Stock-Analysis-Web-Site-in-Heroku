@@ -1,8 +1,8 @@
 STOCK PRICE AND PERFORMANCE ANALYSIS - Historical Performance of Five Similar Stocks
-An Introduction to Analyzing a Comparative Stock Portfolio using Data Visualizations and Machine Learning
+An Introduction to Analyzing a Comparative Stock using Data Visualizations and Machine Learning
 
 Goal of the Project(s):
-This is our final group project for the UNC-Chapel Hill data analytics bootcamp.
+This is part 1 of our final group project for the UNC-Chapel Hill Data Analytics Bootcamp.
 
 We gathered stock price data (of 6 aerospace stocks); all of which are large-cap U.S. equities). We gathered the appropriate historical data for a chosen (3 year) period ending 12/31/20 (Project 2a).
 We then used various data coding methodologies to measure the relative performance of the chosen portfolio; against each other and an apppropriate large-cap equity market index (Project 2b).
