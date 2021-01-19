@@ -1,13 +1,10 @@
-Display Historical Performance of Five Similar Stocks
-
-Members - Paul Eppers, Juliann Pezzullo, Craig Matherson, Connor Lanier, Nadia Albarracin, John Klinges
-STOCK PRICE AND PERFORMANCE ANALYSIS
+STOCK PRICE AND PERFORMANCE ANALYSIS - Historical Performance of Five Similar Stocks
 An Introduction to Analyzing a Comparative Stock Portfolio using Data Visualizations and Machine Learning
 
 Goal of the Project(s):
 This is our final group project for the UNC-Chapel Hill data analytics bootcamp.
 
-We gathered stock price data (of General Electric and those of its direct competitors; all of which are large-cap U.S. equities). We gathered the appropriate historical data for a chosen (3 year) period ending 12/31/20 (Project 2a).
+We gathered stock price data (of 6 aerospace stocks); all of which are large-cap U.S. equities). We gathered the appropriate historical data for a chosen (3 year) period ending 12/31/20 (Project 2a).
 We then used various data coding methodologies to measure the relative performance of the chosen portfolio; against each other and an apppropriate large-cap equity market index (Project 2b).
 We then plan to determine which machine learning techniques are best at predicting financial data (Project 2c).
 Resources for the Project(s):
@@ -51,4 +48,4 @@ Go see our xxxxxx presentation here.
 Conclusion
 Content to be determined.
 
-By Paul Eppers, Juliann Pezzullo, Craig Matherson, Connor Lanier, Nadia Albarracin, John Klinges
+Members: Paul Eppers, Juliann Pezzullo, Craig Matherson, Connor Lanier, Nadia Albarracin, John Klinges
