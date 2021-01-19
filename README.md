@@ -1,43 +1,54 @@
 Display Historical Performance of Five Similar Stocks
+
 Members - Paul Eppers, Juliann Pezzullo, Craig Matherson, Connor Lanier, Nadia Albarracin, John Klinges
+STOCK PRICE AND PERFORMANCE ANALYSIS
+An Introduction to Analyzing a Comparative Stock Portfolio using Data Visualizations and Machine Learning
 
-Description
-Investing money into the 2021 stock market is easier than ever, no longer requiring a broker or large sums of money, and even better, trade transactions have no fees thanks to Robin Hood.
-Analysis of the Nasdaq and Dow Jones exchanges show that the return on Exchange Traded Fun (ETF) would return an exponential return and long term investments only have a 15% Federal Tax rate. With all these positives it should be no surprise that the wealth gap keeps increasing because wealthy people have their money invested in stocks. To help the little guy gain access to some of this wealth our team has created one method to help choosing an investment. Jim Cramer recommends investing your first $10,000 in an ETF like but after that, an individual could return higher gains with some smart trading often called ‘Homework’.
-A diversified portfolio requires an individual to pick multiple categories and evaluate those companies in each category for the best stock. The expression “don’t put all your eggs in one basket” is one of the recommended strategies to investing.
-The purpose of this project is to compare several similar stocks in one category and determine which one is the best value. In our project, we will be comparing Boeing (BA), Lockheed (LMT), Northern Grumman (NOC), Raytheon Technologies (RTX), and General Dynamics (GD). Phase 1 offers users several visuals allowing our user to compare stocks. Phase 2 will incorporate machine learning with details yet to be determined.
-Several Graphs are used to compare the companies:
-1.	Graph of historical values that allows user to select one of the company’s graph, with different ability for user to filter to one of the companies and values
-2.	Relative value analysis graph compares value of the stock in the market per period of time as a percent. All stocks start out at 0% return on day one.
-a. Need how the plot page is created how the dashboard was created
-3.	Need to add another JavaScrip library, examples, allow user to add trend lines by hover and click, allow different filtering options.
-Phase 2, in February Machine learning will be added to predict which stock will be the best investment of the 5 using various data points. This may be some type of dial indicator on what our algorithm predicts. a. RSI, Bollinger, Moving Averages
-b. Yearly returns
-c. Positive headlines over the last 3 months
-d. Overall market trend per predictive Dow Jones and NASDAQ
-Data
-Yahoo Finance is used for the data source, either using and API or the yfinance library. https://rapidapi.com/apidojo/api/yahoo-finance1 A Jupyter Notebook is used to retrieve data, perform calculations, and populate the server with the data, each stock will be a data table. Load Stock Market data into PostgreSQL and load into Heroku.
-Phase 2, Machine Learning (Possibly Random Forest)
-•	Wallstreet Journal for correlation of news and stock performance. We can pull data from https://newsapi.org/ and do basic etl categorizing the news articles as positive or negative. We can store these results into a mongo DB.
-Methods
-Backend: Python is used to retrieve and make calculations, PgAdmin is used as the server.
-Frontend: HTML and JavaScript are used to display data.
-Limitations
-There are many options that already exist that do similar comparisons (https://www.marketbeat.com/compare-stocks/). The real advantage will be the machine learning part that doesn’t currently exist.
-Results/Analysis
-TBD
-Instructions
-1.	You will need to get API Keys for the rapidapi and use yfinance.
-2.	Run jupyter notebook stock.ipynb and creates PgAdmin database.
-3.	Copy files and update .html files as needed
-John’s references
-Machine learning
-Determining Buy and Sell Periods of Stock Using Several Inputs into a Random Forest
-•	Key market indicators (RSI, Bollinger Bands, moving averages, VIX)
-•	Market sentiment based on news articles to determine near term market trend
+Goal of the Project(s):
+This is our final group project for the UNC-Chapel Hill data analytics bootcamp.
 
-References
-https://www.intmath.com/exponential-logarithmic-functions/dow-jones-industrial-ave-graph.php
-https://rapidapi.com/apidojo/api/yahoo-finance1
-•	© 2021 GitHub, Inc.
+We gathered stock price data (of General Electric and those of its direct competitors; all of which are large-cap U.S. equities). We gathered the appropriate historical data for a chosen (3 year) period ending 12/31/20 (Project 2a).
+We then used various data coding methodologies to measure the relative performance of the chosen portfolio; against each other and an apppropriate large-cap equity market index (Project 2b).
+We then plan to determine which machine learning techniques are best at predicting financial data (Project 2c).
+Resources for the Project(s):
+The languages and tools used so far in this project include:
 
+HTML
+CSS
+JavaScript
+jQuery
+Plotly.js
+Bootstrap
+Heroku
+Python
+BeautifulSoup
+requests
+MySQLdb
+quandl
+Matplotlib
+pandas
+MySQL
+Project 2a: Gathering the Data
+In this first step, we created a pipeline from our online data provider to our local MySQL database. We used BeautifulSoup and requests to scrape Yahoo for the ticker symbols of the Dow Jones Industrial Average/S&P500 stocks. We then queried our database for these symbols and used them with Quandl's API to download the historical pricing data for each symbol from 1/1/2000 to today. Finally, we queried our MySQL database for relevant stock data and converted it to a pandas DataFrame to use for further analysis.
+
+Project 2b: Comparative Performance Analysis
+Our presentation can be found here.
+
+Project 2c: Plotting Time Series Data with Plotly and Quandl's API
+We specifically used a xxxxxx. Our code is here.
+
+  
+In the process, we made the following visualization.>here.
+
+Enter a stock
+Plot Stock
+Machine Learning
+Project 3: Machine Learning.
+Ultimately, we decided to compare multivariate machine learning models like xxxxxxxx.
+
+Go see our xxxxxx presentation here.
+
+Conclusion
+Content to be determined.
+
+By Paul Eppers, Juliann Pezzullo, Craig Matherson, Connor Lanier, Nadia Albarracin, John Klinges
