@@ -4,7 +4,7 @@ An Introduction to Analyzing a Comparative Stock using Data Visualizations and M
 Goal of the Project(s):
 This is part 1 of our final group project for the UNC-Chapel Hill Data Analytics Bootcamp.
 
-Go see our xxxxxx presentation here:  https://stanalysis.herokuapp.com/analysis
+Go see our part 1 presentation here:  https://stanalysis.herokuapp.com/analysis
 
 We gathered stock price data (of 6 aerospace stocks); all of which are large-cap U.S. equities). We gathered the appropriate historical data for a chosen (3 year) period ending 12/31/20 (Project 2a).
 We then used various data coding methodologies to measure the relative performance of the chosen portfolio; against each other and an apppropriate large-cap equity market index (Project 2b).
